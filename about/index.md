@@ -21,7 +21,9 @@ I'm a masters student in Computer Science at [TU Delft](http://www.tudelft.nl/),
 ## Employment
 
 `2016-2017` 
-__Turtle Shell Technologies Pvt. Ltd.__ Machine Learning Engineer
+[__Turtle Shell Technologies Pvt. Ltd.__](http://www.dozee.io) Machine Learning Engineer.
+
+Implemented classification algorithms like SVM and Neural Network to accurately predict the sleep stages from pressure signals. The accuracy of the classifier has been validated against the results from the India's leading sleep research lab, [NIMHANS](http://www.nimhans.ac.in).
 
 ## Education
 
@@ -70,30 +72,17 @@ _EpiGeneSys_ (Cambridge, UK)
 
 <-->
 
-<!-- ## Publications
+## Publications
 
 `2017`
-Eberle MA, Fritzilas E, Krusche P, Källberg M, __Moore BL__ _et al._ A reference data set of 5.4 million phased human variants validated by genetic inheritance from sequencing a three-generation 17-member pedigree. _Genome Research_, 27:157-164.
+Marc Juchli, Lars K, Chak Shun Yu, __Shashank Rao__ _et al._ Mining motivated trends of Haskell library usage. _1st International Workshop on API Usage and Evolution_.
 
-`2016`
-Yu N, Nützmann H-W, MacDonald JT, __Moore B__ _et al._ Delineation of metabolic gene clusters in plant genomes by chromatin signatures. _Nucleic Acids Research_, 44(5):2255-2265.
-
-`2015`
-__Moore BL__ _et al._ Integrative modeling reveals the principles of multi-scale chromatin boundary formation in human nuclear organization. _Genome Biology_, 16:110.
-
-Fraser J, Ferrai C, Chiariello AM, Schueler M, Rito T, Laudanno G, Barbieri M, __Moore BL__ _et al._ Hierarchical folding and reorganization of chromosomes are linked to transcriptional changes in cellular differentiation. _Molecular systems biology_, 11:852.
-
-`2013`
-__Moore BL__ _et al._ High–quality protein backbone reconstruction from alpha carbons using Gaussian mixture models. _Journal of computational chemisty_, 34(22):1881-9.
-
-`2011`
-Gardner PP, Daub J, Tate J, __Moore BL__ _et al._ Rfam: Wikipedia, clans and the “decimal” release. _Nucleic acids research_, 39(S1):D141-5.
-
-## Non-academic
+<!-- ## Non-academic
 
 `2014` Pieces in _The Huffington Post_ (US): Here Are the Most Overrated and Underrated Movies of All Time; Celebrity Twitter Followers, by Gender ([huffingtonpost.com/benjamin-moore](http://www.huffingtonpost.com/benjamin-moore/))
 
-`2006–` Articles for _English Wikipedia_: European Nucleotide Archive, RNA thermometer, Toxin-antitoxin system and more ([en.wikipedia.org/wiki/User:Ben_Moore](https://en.wikipedia.org/wiki/User:Ben_Moore)). -->
+`2006–` Articles for _English Wikipedia_: European Nucleotide Archive, RNA thermometer, Toxin-antitoxin system and more ([en.wikipedia.org/wiki/User:Ben_Moore](https://en.wikipedia.org/wiki/User:Ben_Moore)).
+ -->
 
 ## Technical skills
 
@@ -112,39 +101,54 @@ Gardner PP, Daub J, Tate J, __Moore BL__ _et al._ Rfam: Wikipedia, clans and the
 
 ## Projects
 
-### blog
+### AI Chatbot
 
-I write a data science blog at [blm.io](http://blm.io) where I apply R and Python to open datasets and write-up the results. My posts have been featured by sites including FiveThirtyEight, BuzzFeed, AVclub, io9 and more, and also led to being an invited blogger at the Huffington Post. My original wordpress blog ([benjaminlmoore.wordpress.com](http://benjaminlmoore.wordpress.com)) has received around 150,000 total views from 180 countries.
+Currently working on building chatbot using Messenger framework and Wit.AI for text and
+speech-based inputs. Languages used: Python.
 
-### EdinbR
-I co-founded a usergroup for the R programming language in Edinburgh called EdinbR. I help to organise our monthly meetings and built our website: [edinbr.org](http://edinbr.org). Our meetings attract 30-50 statisticians, data scientists and developers for talks and discussion about the R language and its applications. We're sponsored by Revolution Analytics and have an organisational github account at [github.com/EdinbR](https://github.com/EdinbR).
+### Cognitive Melodies
 
-### datarea
+The project aimed at
+predicting and recommending songs based on the mood of the listener. The mood is predicted by using acoustic
+data (low-level features like MFCC) of the songs. Languages & Technology used: Python, Sci-kit, Weka, JSON, AcousticcBrainz.
 
-I entered Imperial College's [Summer Data Challenge](https://www.imperial.ac.uk/data-science/education/summer-data-challenge/) competition, where entrants analysed a given dataset and then proposed a startup idea based on their results. I developed a modelling technique to select housing areas for investment and was awarded third place: £2,000 and startup support from Imperial Create Lab. My entry can be seen at [blm.io/datarea](http://blm.io/datarea) and the code is shared on my github account.
+### Brain Computer Interface
 
-## Awards
+A Neural Network based project that aims to research the state
+of human brain under the influence of music. Languages & Technology used: Python, OpenBCI
 
-MRC Capacity building scholarship (PhD fees + enhanced stipend)
+### SRM Search Engine
 
-MRC Full postgraduate scholarship (MSc fees + stipend)
+I worked as Lead Infrastructure at SRM SE. Aim of SRM-SE was to create an India centric search engine with clustered results, advanced knowledge database and a different UI. I led a team of around 10 DevOps engineers and handled the distributed crawling server, network infrastructre and security of our datacenter.
 
-ISCB computational biology Wikipedia competition 2013 ([doi:10.1371/journal.pcbi.1003242](http://dx.doi.org/10.1371/journal.pcbi.1003242); 2nd place)
+### SRM SDC-Test Beds
 
-Imperial Create Lab's "Summer data challenge" ([summerdatachallenge.com](http://summerdatachallenge.com); 3rd place)
+Built a private cloud using OpenStack and SoCware Defined Networking.
+Migrated the CSE Department server to this private cloud. Languages & Technology used: OpenStack,
+SDN, Python, AWS
 
-Individual engagement grant from the Wikimedia Foundation to attend ISMB 2014
+## Awards/Additional Interests
 
-Training accreditation for Wikimedia UK, the national chapter of the Wikimedia Foundation
+__AIESEC Empower (2012)__: Business idea selected among top 5. The idea was about creating a platform to
+bring together holistic and philanthropic people.
 
-Front cover design selected for J. Comp. Chem. (34:22) ([doi:10.1002/jcc.23388](http://dx.doi.org/10.1002/jcc.23388))
+__Regional Mathematics Olympiad (2008)__: Secured 7th rank in RMO, Gujarat region.
 
-## Placements
+__National Throw ball Tournament__: Represented Gujarat state(India) in the National Throwball tournament.
+
+Certified __PADI Open-Water__ Scuba Diver.
+
+Music, especially country music and alternative rock, are my favorite. Eventually, I explore good movies to
+discover good soundtracks, hence, a movie buff too.
+
+Might even give up precious sleeps for Roadtrips, exciting Books, Live Music Concerts and Beers.
+
+<!-- ## Placements
 
 `2010-11`
 __Wellcome Trust Sanger Institute__ (_Cambridge, UK_)
 Worked for two summers on the Rfam database ([rfam.xfam.org](http://rfam.xfam.org)) in the Bateman group
-
+ -->
 
 ## Links
 
