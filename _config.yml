@@ -1,12 +1,15 @@
 # Site settings
 title: Shashank P. Rao
-name: Shashank
+fname: Shashank
 description: 'CS Grad @TU Delft, Developer, Machine Learning, Deep Learning and AI Enthusiast'
 url: 'https://shashankpr.github.io'
-baseurl: '/'
+baseurl: ""
 comments: true
 # google_analytics: 'UA-XXXXXX-X'
 disqus_shortname: 'shashankpr'
+github:
+  source:
+    branch: master
 
 author:
   name: 'Shashank Rao'
