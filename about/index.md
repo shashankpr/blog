@@ -6,6 +6,8 @@ title: Shashank's CV
 Masters in Computer Science, Data Science @TU Delft, Machine Learning Engineer
 
 <div id="webaddress">
+<a href="{{ site.baseurl }}" title="back to {{ site.name }}'s homepage">Home</a>
+|
 <a href="mailto:s.p.rao@student.tudelft.nl">s.p.rao@student.tudelft.nl</a>
 |
 <i class="fa fa-github"></i> <a href="http://github.com/shashankpr">shashankpr</a>
@@ -20,7 +22,7 @@ I'm a masters student in Computer Science at [TU Delft](http://www.tudelft.nl/),
 
 ## Employment
 
-`2016-2017` 
+`2016-2017`
 [__Turtle Shell Technologies Pvt. Ltd.__](http://www.dozee.io) Machine Learning Engineer.
 
 Implemented classification algorithms like SVM and Neural Network to accurately predict the sleep stages from pressure signals. The accuracy of the classifier has been validated against the results from the India's leading sleep research lab, [NIMHANS](http://www.nimhans.ac.in).
@@ -154,7 +156,7 @@ Worked for two summers on the Rfam database ([rfam.xfam.org](http://rfam.xfam.or
 
 * <i class="fa fa-envelope"></i> <a href="mailto:s.p.rao@student.tudelft.nl">s.p.rao@student.tudelft.nl</a><br />
 * <i class="fa fa-github"></i> <a href="http://github.com/shashankpr">shashankpr</a><br />
-* <i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/shashankprao/">shashankprao</a> 
+* <i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/shashankprao/">shashankprao</a>
 *  <i class="fa fa-twitter"></i> <a href="http://twitter.com/shannky16">shannky16</a><br />
 
 ## References
