@@ -6,7 +6,7 @@ title: Shashank's CV
 Masters in Computer Science, Data Science @TU Delft, Machine Learning Engineer
 
 <div id="webaddress">
-<a href="{{ site.url }}" title="back to {{ site.title }}'s homepage">Home</a>
+<a href="{{ site.url }}" title="back to {{ site.fname }}'s homepage">Home</a>
 |
 <a href="mailto:s.p.rao@student.tudelft.nl">s.p.rao@student.tudelft.nl</a>
 |
