@@ -1,14 +1,24 @@
 ---
+layout: post
 title:  "Welcome to GitHub Pages & Jekyll!"
-date:   2017-12-03 01:35:00 +0100
-categories: [jekyll, github-pages]
-tags: [jekyll, github-pages, markdown, web-develpoment, blogging]
+date: 2017-12-03 01:35:00
+categories: webdev
+author_name : Shashank
+author_lname :
+author_url : /author/shashank
+author_avatar: shashank
+show_avatar : true
+read_time : 2
+feature_image: feature-web
+show_related_posts: false
+square_related: recommend-laptop
 ---
-GitHub Pages is a great way to host your static web content. And the best part is — it is hosted by none other than GitHub.com. 
+
+GitHub Pages is a great way to host your static web content. And the best part is — it is hosted by none other than GitHub.com.
 
 Jekyll is a popular static site generator designed for blogging and software documentation, but usually used for much more. GitHub Pages is highly integrated with Jekyll which makes it easier to add Jekyll themes, build common templates for headers & footers, and use Markdown for writing articles.
 
-GitHub Pages supports various themes for your very own blog or personal site. I use the **Jekyll-uno** theme as I find it pleasing to the eye yet minimalistic — a perfect combo for a personal site & a blog. 
+GitHub Pages supports various themes for your very own blog or personal site. I use the **Jekyll-uno** theme as I find it pleasing to the eye yet minimalistic — a perfect combo for a personal site & a blog.
 
 Jekyll also offers powerful support for code snippets:
 

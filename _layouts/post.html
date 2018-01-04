@@ -1,21 +1,39 @@
 ---
 layout: default
 ---
-<article class="post-container post-container--single">
-  <header class="post-header">
-    <div class="post-meta">
-      <time datetime="{{ page.date | date: "%-d %b %Y" }}" class="post-meta__date date">{{ page.date | date: "%-d %b %Y" }}</time> &#8226;
-       <span class="post-meta__tags">Tags: {% for tag in page.tags %}{% if page.tags.size > 1 %}<a href="/{{ site.baseurl }}tags/#{{ tag }}">{{ tag }}; </a>
-         {% else %}<a href="/{{ site.baseurl }}tags/#{{ tag }}">{{ tag }}</a>
-          {% endif %}
-          {% endfor %}</span>
-    </div>
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
 
-  <section class="post">
-    {{ content }}
-  </section>
-  {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
-</article>
+<header class="hero-image" style="background-image: url({{ site.baseurl }}/img/{{page.feature_image}}.jpg);">
+    <span class="menu-trigger animated fadeInDown">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </span>
+
+    {% include nav.html %}
+</header>
+
+<main class="container">
+    <div class="row">
+        <div class="col-xs-12 single-content">
+            <p class="meta">
+                <a href="{{ page.author_url | prepend: site.baseurl }}">{{ page.author_name | capitalize}} {{ page.author_lname | capitalize}}</a> in <a href='{{ "/category/" | append: page.categories.first | prepend: site.baseurl }}'>{{ page.categories[0] | capitalize }}</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> {{ page.read_time }} minutes
+            </p>
+
+            <h1>{{ page.title }}</h1>
+
+            {{ content }}
+
+        </div><!-- main-content/col -->
+    </div> <!--/row -->
+      {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
+
+</main> <!-- /container -->
 {% if page.comments != false %}{% include disqus.html %}{% endif %}
+
+<footer class="single">
+    {% include footer-single.html %}
+
+    {% if page.show_related_posts == true %}
+        {% include footer-related-posts.html %}
+    {% endif %}
+</footer>

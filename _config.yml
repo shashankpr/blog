@@ -1,51 +1,26 @@
 # Site settings
 title: Shashank P. Rao
-fname: Shashank
-description: 'CS Grad @TU Delft, Developer, Machine Learning (Deep Learning) Engineer & Researcher'
-url: 'https://shashankpr.github.io'
-baseurl: ""
+email: s.p.rao@student.tudelft.nl
+description: > # Writer Theme is a responsive template
+ CS Grad @TU Delft, Developer, Machine Learning (Deep Learning) Engineer & Researcher
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://shashankpr.github.io" # the base hostname & protocol for your site
+disqus_shortname: "shashankpr"
 comments: true
-# google_analytics: 'UA-XXXXXX-X'
-disqus_shortname: 'shashankpr'
-github:
-  source:
-    branch: master
+enable_retina: false
+permalink: :title
+nav_list:
+  Home : ['Home', '/', 'fa-home']
+  #Home_Alt : ['Home Alt', '/home-alt', 'fa-home']
+  #Home_Alt_2 : ['Home Alt 2', '/home-alt-2/', 'fa-home']
+  About : ['About', '/about', 'fa-anchor']
+  Contact : ['Contact', '/contact', 'fa-plane']
+  Author : ['Author', '/author/shashank', 'fa-user']
+single_footer: '<p>The writer community loves your content. Writer &copy; 2017 <a href="/">latest posts</a></p>'
+footer_links:
+    About: ['About', '/about']
+    Writer: ['Writer 2017', '/author/shashank']
 
-author:
-  name: 'Shashank Rao'
-  email: s.p.rao@student.tudelft.nl
-  twitter_username: shannky16
-  facebook_username: shashankpr16
-  github_username:  shashankpr
-  linkedin_username:  shashankprao
-
-defaults:
-  -
-    scope:
-      path: ''
-      type: 'posts'
-    values:
-        layout: 'post'
-  -
-    scope:
-      path: 'about'
-      type: 'pages'
-    values:
-        layout: 'about'
 
 # Build settings
-destination: _site
-paginate: 10
-permalink: /:year/:title/
-markdown: kramdown
-highlighter: rouge
-timezone: Europe/Amsterdam
-
-kramdown:
-  # use Github Flavored Markdown
-  input: GFM
-  # do not replace newlines by <br>s
-  hard_wrap: false
-
-plugins: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png', 'test.markdown']
+# markdown: kramdown
