@@ -16,10 +16,10 @@ nav_list:
   About : ['About', '/about', 'fa-anchor']
   Contact : ['Contact', '/contact', 'fa-plane']
   Author : ['Author', '/author/shashank', 'fa-user']
-single_footer: '<p>The writer community loves your content. Writer &copy; 2017 <a href="/">latest posts</a></p>'
+single_footer: '<p>Learning has no end. Writer &copy; 2018 <a href="/">latest posts</a></p>'
 footer_links:
     About: ['About', '/about']
-    Writer: ['Writer 2017', '/author/shashank']
+    Writer: ['Writer 2018', '/author/shashank']
 
 
 # Build settings

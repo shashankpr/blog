@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to GitHub Pages & Jekyll!"
 date: 2017-12-03 01:35:00
-categories: webdev
+categories: webdev coding
 author_name : Shashank
 author_lname :
 author_url : /author/shashank
