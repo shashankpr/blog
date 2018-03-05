@@ -3,7 +3,7 @@ title: Shashank P. Rao
 email: s.p.rao@student.tudelft.nl
 description: > # Writer Theme is a responsive template
  CS Grad @TU Delft, Developer, Machine Learning (Deep Learning) Engineer & Researcher
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://shashankpr.github.io" # the base hostname & protocol for your site
 disqus_shortname: "shashankpr"
 comments: true
@@ -18,8 +18,8 @@ nav_list:
   Author : ['Author', '/author/shashank', 'fa-user']
 single_footer: '<p>Learning has no end. Writer &copy; 2018 <a href="/">latest posts</a></p>'
 footer_links:
-    About: ['About', '/blog/about']
-    Writer: ['Writer 2018', '/blog/author/shashank']
+    About: ['About', '/about']
+    Writer: ['Writer 2018', '/author/shashank']
 
 
 # Build settings
